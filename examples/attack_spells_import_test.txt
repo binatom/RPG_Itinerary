@@ -1,0 +1,3 @@
+Spring,5,3,4
+Arrow,2,15,129
+Thunderstruck,2,13,123
