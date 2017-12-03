@@ -22,7 +22,7 @@ Spells.o: ./src/Spells.cpp ./src/Spells.h ./src/Equipments.h
 	g++ -std=c++11 -Wall -pedantic -Wno-long-long -O0 -ggdb ./src/Spells.cpp -c -o Spells.o
 
 sqlite3.o: ./src/sqlite/sqlite3.c ./src/sqlite/sqlite3.h
-	gcc -Wall -pedantic -Wno-long-long -O0 -ggdb ./src/sqlite/sqlite3.c -c -o sqlite3.o
+	gcc ./src/sqlite/sqlite3.c -c -o sqlite3.o
 
 run: compile
 	./RPG_Itinerary
